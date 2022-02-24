@@ -1,12 +1,12 @@
-from colab_ssh.utils.packages.installer import create_deb_installer
-from colab_ssh.utils.ui.render_html import render_template
+from utils.packages.installer import create_deb_installer
+from utils.ui.render_html import render_template
 from subprocess import Popen, PIPE
 import shlex
 from colab_ssh._command import run_command, run_with_pipe
 import os
 import time
-from colab_ssh.get_tunnel_config import get_argo_tunnel_config
-from .utils.expose_env_variable import expose_env_variable
+from get_tunnel_config import get_argo_tunnel_config
+from utils.expose_env_variable import expose_env_variable
 import importlib
 import sys
 import signal
