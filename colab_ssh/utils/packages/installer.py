@@ -1,4 +1,4 @@
-import apt_pkg
+import apt
 import os
 
 
