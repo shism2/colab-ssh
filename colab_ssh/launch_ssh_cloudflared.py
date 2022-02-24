@@ -2,7 +2,7 @@ from utils.packages.installer import create_deb_installer
 from utils.ui.render_html import render_template
 from subprocess import Popen, PIPE
 import shlex
-from colab_ssh._command import run_command, run_with_pipe
+from utils._command import run_command, run_with_pipe
 import os
 import time
 from get_tunnel_config import get_argo_tunnel_config
