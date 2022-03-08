@@ -1,4 +1,3 @@
-from utils.packages.installer import create_deb_installer
 from utils.ui.render_html import render_template
 from subprocess import Popen, PIPE
 import shlex
